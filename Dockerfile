@@ -6,7 +6,6 @@ MAINTAINER thetarkus
 # Installation
 #
 
-ARG arch=amd64
 RUN \
 	echo 'installing dependencies' && \
 	apk add --no-cache \
